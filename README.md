@@ -1,1 +1,1 @@
-# hellsingi.github.io-ghost
+# link:  https://hellsingi.github.io/Ghost/
