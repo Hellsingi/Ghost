@@ -1,0 +1,128 @@
+.domain-head{
+    height: 495px;
+}
+
+.domain-head h3{
+    margin-top: 84px;
+    text-align: center;
+    font: 24px 'Lato-Heavy', sans-serif;
+    font-weight: 700;
+    word-spacing: 3px;
+}
+
+.domain-head > p{
+    color: #D9D9D9;
+    margin-top: 9px;
+    margin-bottom: 45px;
+    text-align: center;
+    font: 16px 'Montserrat', sans-serif;
+}
+
+.domain-choose{
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+    height: 49px;
+    width: 888px;
+    border: 1px solid #D9D9D9;
+    margin-bottom: 40px;
+}
+
+.domain-head span.world-wide{
+    color: #D6D6D6;
+    font-size: 15px;
+    border-right: 1px solid #D9D9D9;
+    padding: 6px 17px;
+    text-align: center;
+}
+
+input.domain{
+    width: 690px;
+    font-family: LotoHeavy, Arial, sans-serif;
+	font-weight: bold;
+    font-size: 15px;
+    padding: 15px 18px;
+    border: none;
+    color: #868686;
+}
+
+.domain-head input:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+select#domain-name{
+    padding: 6px 6px;
+    color: #D6D6D6;
+    font-size: 16px;
+    border: none;
+    border-left: 1px solid #D9D9D9;
+    cursor: pointer;  
+}
+
+.domain-head select:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+.domain-price{
+	position: relative;
+	max-width: 890px;
+	text-align: center;
+	width: 100%;
+	border: 1px solid #d9d9d9;
+    color: #d9d9d9;
+    border-spacing: 0px;
+    margin: 0 auto;
+    padding-top: 2px;
+
+}
+.domain-price:before,
+.domain-price:after{
+	content: "";
+	width: 80%;
+	z-index: 5;
+	height: 16px;
+	background-color: #fff;
+	position: absolute;
+}
+.domain-price:after{
+	bottom: 1.5px;
+}
+.domain-price td{
+	position: relative;
+	width: 25%;
+	font-size: 0.875rem;
+	line-height: 0.875rem;
+	border-right: 1px solid #d9d9d9;
+	border-bottom: 1px solid #d9d9d9;
+	padding: 42px 0 39px 0;
+	color: #d9d9d9;
+}
+.domain-price td:last-child{
+	border-right: none;
+}
+.domain-price tr:last-child td{
+	border-bottom: none;
+}
+.domain-price tr:last-child td:after{
+	content: "";
+	position: absolute;
+	width: 13px;
+	height: 13px;
+	background-color: #fff;
+	top: -7px;
+	right: -7px;
+}
+.domain-price tr:last-child td:last-child:after{
+	width: 28px;
+	right: 1px;
+}
+.domain-price tr:last-child td:first-child:before{
+	content: "";
+	position: absolute;
+	width: 27px;
+	height: 13px;
+	background-color: #fff;
+	top: -7px;
+	left: 2px;
+}

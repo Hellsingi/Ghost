@@ -1,0 +1,145 @@
+  footer{
+    background-color: #2a2a2a;
+  }
+  
+.wrapper-footer{
+    max-width: 1200px;
+    height: inherit;
+    margin: 0 auto;
+    padding-bottom: 55px;
+  }
+
+  .footer-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 13px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+  }
+
+  .menu-footer{
+    display: flex;
+    list-style: none;
+    color: white;    
+  }
+  
+  footer .menu-item{
+    margin-left: 40px;
+  }
+  
+  footer .menu-link{
+    color: #bfbfbf;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 27px;
+  }
+  
+  footer .menu-link:hover{
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+  }
+
+  .footer-info{
+    display: flex;
+    justify-content: space-between;
+    color: #646464;
+    margin-top: 35px;
+  }
+
+  .copyright{
+    width: 30%;
+    height: 106px;
+    border-right: 1px solid #646464;
+    padding-top: 0;
+    padding-right: 35px;
+    font-family: "Lato-Light";
+    text-align: left;
+  }
+
+  .copyright span{
+    font-weight: bold;
+    letter-spacing: 0.1px
+  }
+
+  .footer-nav{
+    width: 40%;
+    height: 106px;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    border-right: 1px solid #646464;
+    
+  }
+  
+  .footer-nav ul{
+    list-style-type: none;
+  }
+  
+  .footer-nav a{
+    text-decoration: none;
+    color: #646464;
+    transition: all 0.1s ease-in-out;
+  }
+  .contacts a i{
+  margin-right: 10px;
+}
+  
+  .footer-nav a i{
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .footer-nav a:hover{
+    color: white;
+    
+  }
+  
+  .footer-nav a:hover i{
+    transform: translateX(-10px);
+  }
+  
+  .contacts{
+    width: 30%;
+    padding-left: 75px;
+  }
+  
+  .contacts a{
+    text-decoration: none;
+    color: #646464;
+    line-height: 25px;
+  }
+  
+  .contacts a:hover{
+    color: white;
+  }
+ 
+  .contacts .phone:hover i{
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0,0,0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+  
+  @keyframes shake{
+    10%, 90%{
+      transform: translate3d(-1px, 0, 0);
+    }
+  
+    20%, 80%{
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70%{
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60%{
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+  
+  .contacts p{
+    line-height: 10px;
+  }

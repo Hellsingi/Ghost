@@ -1,0 +1,231 @@
+.packages {
+	width: 100%;	
+	height: 766px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white; 
+	top: -2px;
+}
+
+.packages .packages_bground {
+	width: inherit;
+	height: 384px;
+	position: absolute;
+	background: url("../images/Packages BG.png");
+}
+
+
+
+.packages .container {
+	width: 1198px;
+	min-height:806px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	position: relative;
+	z-index: 5;
+}
+
+.packages .container::after {
+	content: "";
+	width: inherit;
+	height: 2px;
+	background-image: url("../images/dashedLine.png");
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.packages .package {
+	width: 255px;
+	height: 565px;
+	margin: 9px 0 10px 0;
+	padding: 36px 0 0 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05), 0 3px 15px 0 rgba(0, 0, 0, 0.05);
+
+}
+
+
+.packages .basic_package {
+	border-top: 5px solid #f9d423;
+}
+
+.packages .normal_package {
+	border-top: 5px solid #7f8c8d;
+}
+
+.packages .big_package {
+	border-top: 5px solid #f85f40;
+}
+
+.packages .biggest_package {
+	border-top: 5px solid #1abc9c;
+}
+
+.package .package_symbol {
+	width: 45px;
+	height: 45px;
+	margin-right: 3px;
+	border-radius: 50%;
+	border: 6px solid white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+h4 {
+	margin-top: 18px;
+	margin-bottom: 0px;
+    display: inline-block;
+    font-family: Loto, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    user-select: none;
+}
+
+.package .specifications {
+	height: 284px;
+	width: 200px;
+	padding-top: 19px;
+	border-top: 1px solid #dfdfdf;
+	border-bottom: 1px solid #dfdfdf;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	font-family: LatoLight, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: lighter;
+	color: #bebebe;
+	list-style: none;
+	line-height: 1;
+}
+
+.package .specifications li .left {
+	float: left;
+	margin-bottom: 21px;
+	margin-left: -21px;
+}
+
+.package .specifications li .right {
+	margin-bottom: 21px;
+    float: right;
+	margin-right: 21px;
+	font-weight: bold;
+	
+}
+
+.package .package_price {
+	width: 105px;
+	padding-bottom: 7px;
+	padding-left: 16px;
+	position: relative;
+	text-align: center;
+	font-size: 27px;
+	color: black;
+	font-weight: bold;
+	letter-spacing: 1px;
+	word-spacing: -6px;
+}
+
+.package .package_price .sup {
+	display: inline-block;
+	position: absolute;
+	top: 4px;
+	left: 18px;
+	font-size: 16px;
+}
+
+.package .package_price .sub {
+	font-weight: normal;
+	font-size: 12px;
+	color: #8d8d8d;
+}
+
+.package a {
+	margin-top: 17px;
+	margin-left: 3px;
+	display: inline-block;
+	font-family: Loto, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+
+.package a:hover {
+	color: rgb(121, 119, 119);
+}
+
+.basic_package .package_symbol {
+	color: #f9d423;
+	border-right-color: #f9d423;
+	transform: rotate(-45deg);
+}
+
+.basic_package i, .normal_package i,
+.big_package i {
+	transform: rotate(45deg);
+}
+
+.normal_package .package_symbol {
+	color: #7f8c8d;
+	border-right-color: #7f8c8d;
+	border-bottom-color: #7f8c8d;
+	transform: rotate(-45deg);
+}
+
+.normal_package .package_symbol i {
+	transform: rotate(45deg);
+}
+
+.big_package .package_symbol {
+	color: #f85f40;
+	border-right-color: #f85f40;
+	border-bottom-color: #f85f40;
+	border-left-color: #f85f40;
+	transform: rotate(-45deg);
+}
+
+.biggest_package .package_symbol {
+	color: #1abc9c;
+	border: 6px solid #1abc9c;
+}
+
+.basic_package .specifications li .right {
+	color: #f9d423;
+}
+
+.normal_package .specifications li .right {
+	color: #7f8c8d;
+}
+
+.big_package .specifications li .right {
+	color: #f85f40;
+}
+
+.biggest_package .specifications li .right {
+	color: #1abc9c;
+}
+
+.normal_package .package_price {
+	border-bottom: 3px solid #7f8c8d;
+}
+
+.basic_package .package_price {
+	border-bottom: 3px solid #f9d423;
+}
+
+.big_package .package_price {
+	border-bottom: 3px solid #f85f40;
+}
+
+.biggest_package .package_price {
+	border-bottom: 3px solid #1abc9c;
+}

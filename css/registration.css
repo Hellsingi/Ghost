@@ -1,0 +1,72 @@
+.registration {
+	height: 121px;
+	background-color: #39d083;
+	opacity: 0.97;
+    position: relative;
+    font: 20px 'Lato', sans-serif;
+    font-weight: 600;
+}
+.member {
+	display: flex;
+}
+
+.login {
+	position: relative;
+	margin: 0;
+    width: 811px;
+	background-color: #203747;
+	opacity: 0.91;
+    height: 121px;
+    clip-path: polygon(0 0, 100% 0%, 96.5% 100%, 0% 100%);
+}
+
+.register {
+	position: absolute;
+    left: 785px;
+    margin: 0;
+    width: 815px;
+    height: 121px;
+    clip-path: polygon(4% 0%, 100% 0%, 100% 100%, 0% 98%);
+}
+
+.login:hover {
+	background-color: #003747;
+}
+
+.register:hover {
+	background-color: #09d083;
+}
+
+.login a {
+    position: absolute;
+    left: 471px;
+    letter-spacing: 0.8px;
+}
+
+.register a {
+    position: absolute;
+    left: 266px;
+    letter-spacing: 0.8px;
+}
+.register a, .login a{
+    top: 47px;
+    letter-spacing: 1px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.login a:hover{
+    color: #4E9CAF;
+}
+
+.login a:active{
+    color: #0085A6;
+}
+
+.register a:hover{
+    color: #8FFCC4;
+}
+
+.register a:active{
+    color: #125F37;
+}

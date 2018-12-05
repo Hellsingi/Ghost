@@ -1,0 +1,12 @@
+body{
+    width: 1600px;
+    height: 100%;
+    margin: 0 auto;
+    background: white;
+    font: 'Lato', Arial, sans-serif;
+    font-size: 18px;
+
+ }
+.wrapper{
+    margin: 0 auto; 
+}

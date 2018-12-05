@@ -1,0 +1,89 @@
+.header, .backgrount-image{
+    position: relative;
+    margin: 0 auto;
+}
+
+.backgrount-image{
+    width: 1600px;
+    height: 945px;
+    background-blend-mode: darken;
+    background: rgba(0,0,0,0.83) url(../images/header.png) no-repeat;
+}
+
+.container-nav{
+    margin: 0 auto;
+    border-bottom: 1px solid #2F2E33;
+    height: 90px;
+    width: 1200px;
+    background: url(../images/logo.png) no-repeat 4px 32px; 
+}
+
+.nav-bar{
+    border: 1px solid transparent;
+}
+
+.nav-bar ul{
+    justify-content: flex-end;
+    display: flex;
+}
+
+.nav-bar ul li{
+    margin-right: 66px;
+    text-align: center;
+    font: 16px 'Lato-Medium', Helvetica, sans-serif;
+}
+
+.nav-bar ul li a{
+    padding-top: 20px;
+    padding-bottom: 33px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-bar ul li a:hover{
+    border-bottom: 1px solid #fff;
+    color: #E84C3D;
+}
+
+.nav-bar ul li:last-child{
+    margin-right: 0;
+}
+
+.nav{
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav>li>a{
+    position: relative;
+    display: block;
+    padding: 24px 1px;
+}
+
+
+/*Section Home*/
+
+.home .textBlock{
+    text-align: center;
+    position: relative;
+    left: 1px;
+    top: 258px;
+}
+
+.home p{
+    font: 32px 'Georgia', sans-serif;
+    font-style: italic;
+    margin: 18px auto;
+    line-height: 29px;
+    color: #fff;
+}
+
+.home h2{
+    font: 72px 'MyriadPro-Bold', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 24px;
+}

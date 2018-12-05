@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'Lato-Medium';
+  src: url('../Lato/Lato-Medium.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Lato-Bold';
+  src: url('../Lato/Lato-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Lato-Black';
+  src: url('../Lato/Lato-Black.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Lato-Heavy';
+  src: url('../Lato/Lato-Heavy.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Lato-Italic';
+  src: url('../Lato/Lato-Italic.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Lato-Semibold';
+  src: url('../Lato/Lato-Semibold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Lato-Hairline';
+  src: url('../Lato/Lato-Hairline.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Lato-Light';
+  src: url('../Lato/Lato-Light.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Lato-Thin';
+  src: url('../Lato/Lato-Thin.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face{
+	font-family: 'Lato';	
+	src: url('../fonts/Lato/Lato-Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+    }
+
+@font-face{
+    font-family: 'MyriadPro-Bold';	
+    src: url('../fonts/MyriadPro/MyriadProBold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}    
+@font-face{
+    font-family: 'MyriadPro-Regular';	
+    src: url('../fonts/MyriadPro/MyriadProRegular.ttf');
+    font-weight: bold;
+    font-style: normal;
+}  
+@font-face{
+    font-family: 'Georgia';	
+    src: url('../fonts/Georgia/Georgia.ttf');
+    font-weight: normal;
+    font-style: normal;
+}    
+
+@font-face{
+    font-family: 'Georgia-Italic';	
+    src: url('../fonts/Georgia/georgia italic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}  
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+    
